@@ -1,0 +1,167 @@
+<DOCTYPE! html>
+
+<html>
+	<head>
+
+		<meta name="viewpoint"
+			content="width=device=width,initial-scale=1.0">
+		<title>
+			design desktop/mobile responsive.
+		</title>
+		<link rel="stylesheet" href="./styled.css">
+		<script defer src="Designpage-Script.js"></script>
+	</head>
+
+		<body>
+			<div class="containpage">
+				
+			<div class="container">
+				
+				<div class="dropdown">
+				<img  class="dropbtn" type="button" src="images/icon-menu.svg">
+				<div class="dropdown-content">
+
+					<img class="iconclose" src="images/icon-close.svg">
+
+					<a href="#">Collection</a>
+
+					<a href="#">Men</a>
+			
+					<a href="#">Women</a>
+
+					<a href="#">About</a>
+
+					<a href="#">Contact</a>
+
+				</div>
+				</div>
+
+				<div><img class="space" src="images/logo.svg">
+				</div>
+
+				<div><ul class="list">
+
+					<li><a href="#">Collection</a></li>
+
+				<li><a href="#">Men</a></li>
+		
+				<li><a href="#">Women</a></li>
+
+				<li><a href="#">About</a></li>
+
+				<li><a href="#">Contact</a></li>
+				
+		</ul>
+		</div>
+		
+
+				<div>
+					<img  class="cart" type="button"  src="images/icon-cart.svg">
+					<div id="showdisplay" class="dropclick">
+						<div>
+							<p class="dropclickCart">Cart</p>
+							<hr>
+						</div>
+						<div id="dropIteminfo" class="dropclickItem">
+							<div class="dropclickImg">
+								<img class="dropImg" src="images/image-product-1-thumbnail.jpg">
+							</div>
+							<div class="dropclickText">
+								<p class="dropclickpara">Fall Limited Edition Sneakers</p>
+								<div class="itemDetails">
+									<p class="itemandPrice" id="itemSelected"></p>
+									<p class="itemandPricetotal" id="itemTotal"></p>
+								</div>	
+							</div>
+							<div class="dropclickBin">
+								<button onclick="ClearSelecteditem()" class="bin"> &#128465 </button>
+							</div>
+						</div>
+						<div class="dropclickBtn">
+							<button class="checkoutbtn">Checkout</button>
+						</div>
+					</div>
+				</div>
+				<div><img class="avatar"  type="icon"  src="images/image-avatar.png"></div>
+		</div>
+		<hr></hr>
+
+
+		<div class="containblock">
+
+			<div class="block1">
+			<div>
+				<img  class="img" id="DisplayImg" src="images/image-product-1.jpg">
+			</div>
+			<div class="containthumbs">
+			<div>
+				<img class="img2" onclick="displayImg1Change()"  src="images/image-product-1-thumbnail.jpg"> 
+			</div>
+			<div>
+				<img class="img2" onclick="displayImg2Change()" src="images/image-product-2-thumbnail.jpg">
+			</div>
+			<div>
+				<img class="img2"  onclick="displayImg3Change()" src="images/image-product-3-thumbnail.jpg">
+			</div>
+			<div>
+				<img class="img2"  onclick="displayImg4Change()" src="images/image-product-4-thumbnail.jpg">
+			</div>
+			</div>
+
+		</div>
+
+		<div class="block2">
+
+		<div><h5 class="h5orange">SNEAKER COMPANY</h5>
+			</div>
+		
+		<div><h1 class="h1font">Fall Limited Edition Sneakers</h1><br><br>
+			</div>
+			
+			<div><p class="pfont">These low-profile sneakers are your perfect causal wear companion. 
+				Featuring a durable rubber outer sole,they'll withstand everthing the weather can offer.</p>
+				</div>
+
+				<div class="money">
+
+				<div class="containflex">
+
+					<div><h1 class="hfont">$125.00</h1></div>
+
+					<div><button class="button1">50%</button></div>
+
+				</div>
+
+						<div class="cash"><s>$250.00</s></div>
+
+						</div>
+
+		<div class="containflexA">
+			<div class="containA">
+				<div class="buttonA">
+					<button class="buttonB" id="subtract">-</button>
+				</div>
+				<div class="number">
+					<span id="counter">0</span>
+				</div>
+				<div>
+					<button class="buttonC" id="add">+</button>
+				</div>
+			
+							</div>
+
+						<div class="button20">
+							<button onclick="dropboxDisplay()" type="button" class="button2"><div>
+						<img  class="imgbutt"  src="images/icon-cart.svg" ></div>
+								<div ><h3 class="h3butt" >Add To Cart</h3></div></button>
+						</div>
+
+						
+			</div>
+
+
+		</div>
+		</div>
+</body>
+
+</html>
