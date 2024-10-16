@@ -34,22 +34,11 @@ document.getElementById("add").onclick = function(){
 }
 
 
+function displayImgChange(imgId){
 
-function displayImg1Change(){
-    document.getElementById("DisplayImg").src = "images/image-product-1.jpg";
+    document.getElementById("DisplayImg").src = document.getElementById(imgId).src;
 }
 
-function displayImg2Change(){
-    document.getElementById("DisplayImg").src = "images/image-product-2.jpg";
-}
-
-function displayImg3Change(){
-    document.getElementById("DisplayImg").src = "images/image-product-3.jpg";
-}
-
-function displayImg4Change(){
-    document.getElementById("DisplayImg").src = "images/image-product-4.jpg";
-}
 
 function dropboxDisplay(){
   document.getElementById("showdisplay").style.display= "block";
