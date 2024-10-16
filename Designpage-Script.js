@@ -56,7 +56,7 @@ function dropboxDisplay(){
 
   setTimeout(function(){
     document.getElementById("showdisplay").style.display= "none";
-},3000);
+},5000);
 }
 
 function ClearSelecteditem(){
